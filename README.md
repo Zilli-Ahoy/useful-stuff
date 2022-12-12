@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @Zilli-Ahoy //This is not my real name of course.
+- 👋 Hi, I’m @Zilli-Ahoy // This is not my real name of course.
 - 👀 I’m in to C#, HTML, CSS and Java
-- 🌱 I’m currently learning Java
+- 🌱 I’m currently learning Java and Javascript. I know, they are NOT THE SAME language.
 - 📫 How to reach me: idk...
 
 <!---

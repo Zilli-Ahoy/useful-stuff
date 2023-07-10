@@ -1,0 +1,259 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class Main 
+{
+	static String one[] = new String [1000]; 
+	static String two[] = new String [1000]; 
+	static String three[] = new String [1000]; 
+	static String four[] = new String [1000]; 
+	static String five[] = new String [1000]; 
+	static String six[] = new String [1000]; 
+	static String seven[] = new String [1000]; 
+	static String eight[] = new String [1000]; 
+	static String nine[] = new String [1000]; 
+	static String ten[] = new String [1000]; 
+	static String eleven[] = new String [1000]; 
+	static String twelve [] = new String [1000]; 
+	static String thirteen [] = new String [1000]; 
+	static String fourteen [] = new String [1000]; 
+	static String fifteen [] = new String [1000]; 
+	static String sixteen [] = new String [1000]; 
+	static String seventeen [] = new String [1000]; 
+	static String eighteen [] = new String [1000];
+	
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+
+		//array string input
+		System.out.println("Paste the list here and hit enter (split the words by a space)");
+		String paste = in.nextLine();
+		String word[] = paste.split(" "); 
+		
+		for (int i = 0; i < word.length; i++) 
+		{
+			String temp = word [i];
+
+			switch(temp.length()) 
+			{
+			    case 1: 
+			        for(int j = 0; j < one.length; j++) 
+			        {
+			            if(one[j] == null)
+			            { 
+			                one[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 2: 
+			        for(int j = 0; j < two.length; j++) 
+			        {
+			            if(two[j] == null) 
+			            { 
+			                two[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 3: 
+			        for(int j = 0; j < three.length; j++) 
+			        {
+			            if(three[j] == null) 
+			            { 
+			                three[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 4: 
+			        for(int j = 0; j < four.length; j++) 
+			        {
+			            if(four[j] == null) 
+			            { 
+			                four[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 5: 
+			        for(int j = 0; j < five.length; j++) 
+			        {
+			            if(five[j] == null) 
+			            { 
+			                five[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 6: 
+			        for(int j = 0; j < six.length; j++) 
+			        {
+			            if(six[j] == null) 
+			            { 
+			                six[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 7: 
+			        for(int j = 0; j < seven.length; j++) 
+			        {
+			            if(seven[j] == null) 
+			            { 
+			                seven[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 8: 
+			        for(int j = 0; j < eight.length; j++) 
+			        {
+			            if(eight[j] == null) 
+			            { 
+			                eight[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 9: 
+			        for(int j = 0; j < nine.length; j++) 
+			        {
+			            if(nine[j] == null) 
+			            { 
+			                nine[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 10: 
+			        for(int j = 0; j < ten.length; j++) 
+			        {
+			            if(ten[j] == null) 
+			            { 
+			                ten[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 11: 
+			        for(int j = 0; j < eleven.length; j++) 
+			        {
+			            if(eleven[j] == null) 
+			            { 
+			                eleven[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 12: 
+			        for(int j = 0; j < twelve.length; j++) 
+			        {
+			            if(twelve[j] == null) 
+			            { 
+			                twelve[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 13: 
+			        for(int j = 0; j < thirteen.length; j++) 
+			        {
+			            if(thirteen[j] == null) 
+			            { 
+			                thirteen[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 14: 
+			        for(int j = 0; j < fourteen.length; j++) 
+			        {
+			            if(fourteen[j] == null) 
+			            { 
+			                fourteen[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 15: 
+			        for(int j = 0; j < fifteen.length; j++) 
+			        {
+			            if(fifteen[j] == null) 
+			            { 
+			                fifteen[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 16: 
+			        for(int j = 0; j < sixteen.length; j++) 
+			        {
+			            if(sixteen[j] == null) 
+			            { 
+			                sixteen[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 17: 
+			        for(int j = 0; j < seventeen.length; j++) 
+			        {
+			            if(seventeen[j] == null) 
+			            { 
+			                seventeen[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			        
+			    case 18: 
+			        for(int j = 0; j < eighteen.length; j++) 
+			        {
+			            if(eighteen[j] == null) 
+			            { 
+			                eighteen[j] = temp;
+			                break;
+			            }
+			        }
+			        break;
+			} // end of switch	
+		} // end of for
+		
+		print();
+		
+	} // main end
+
+	public static void print() {
+	    StringBuilder result = new StringBuilder();
+
+	    String[][] arrays = {one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen};
+
+	    for (String[] array : arrays) {
+	        for (String s : array) {
+	            if (s != null) {
+	                result.append(s).append(" ");
+	            }
+	        }
+	    }
+
+	    System.out.println(result.toString().trim());
+	}
+}

@@ -27,7 +27,9 @@ public class Main
 		Scanner in = new Scanner(System.in);
 
 		//array string input
-		System.out.println("Paste the list here and hit enter (split the words by a space)");
+		System.out.println("Paste the list here and hit enter (split the words by a space)"
+				+ "!️There is no error catching\n"
+				+ "!️The list can not be over 1000 words");
 		String paste = in.nextLine();
 		String word[] = paste.split(" "); 
 		
@@ -256,4 +258,6 @@ public class Main
 
 	    System.out.println(result.toString().trim());
 	}
+	
+
 }

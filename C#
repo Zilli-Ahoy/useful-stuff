@@ -1,0 +1,260 @@
+using System;
+using System.Text;
+
+class MainClass
+{
+	static string[] one = new string[1000];
+	static string[] two = new string[1000];
+	static string[] three = new string[1000];
+	static string[] four = new string[1000];
+	static string[] five = new string[1000];
+	static string[] six = new string[1000];
+	static string[] seven = new string[1000];
+	static string[] eight = new string[1000];
+	static string[] nine = new string[1000];
+	static string[] ten = new string[1000];
+	static string[] eleven = new string[1000];
+	static string[] twelve = new string[1000];
+	static string[] thirteen = new string[1000];
+	static string[] fourteen = new string[1000];
+	static string[] fifteen = new string[1000];
+	static string[] sixteen = new string[1000];
+	static string[] seventeen = new string[1000];
+	static string[] eighteen = new string[1000];
+
+	public static void Main(string[] args)
+	{
+		Console.WriteLine("Add new line by capital letter detection, no space" +
+			"!️There is no error catching\n" +
+			"!️The list can not be over 1000 words");
+		string paste = Console.ReadLine();
+		string[] word = paste.Split(' ');
+
+		for (int i = 0; i < word.Length; i++)
+		{
+			string temp = word[i];
+
+			switch (temp.Length)
+			{
+				case 1:
+					for (int j = 0; j < one.Length; j++)
+					{
+						if (one[j] == null)
+						{
+							one[j] = temp;
+							break;
+						}
+					}
+					break;
+				case 2:
+					for (int j = 0; j < two.Length; j++)
+					{
+						if (two[j] == null)
+						{
+							two[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 3:
+					for (int j = 0; j < three.Length; j++)
+					{
+						if (three[j] == null)
+						{
+							three[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 4:
+					for (int j = 0; j < four.Length; j++)
+					{
+						if (four[j] == null)
+						{
+							four[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 5:
+					for (int j = 0; j < five.Length; j++)
+					{
+						if (five[j] == null)
+						{
+							five[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 6:
+					for (int j = 0; j < six.Length; j++)
+					{
+						if (six[j] == null)
+						{
+							six[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 7:
+					for (int j = 0; j < seven.Length; j++)
+					{
+						if (seven[j] == null)
+						{
+							seven[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 8:
+					for (int j = 0; j < eight.Length; j++)
+					{
+						if (eight[j] == null)
+						{
+							eight[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 9:
+					for (int j = 0; j < nine.Length; j++)
+					{
+						if (nine[j] == null)
+						{
+							nine[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 10:
+					for (int j = 0; j < ten.Length; j++)
+					{
+						if (ten[j] == null)
+						{
+							ten[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 11:
+					for (int j = 0; j < eleven.Length; j++)
+					{
+						if (eleven[j] == null)
+						{
+							eleven[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 12:
+					for (int j = 0; j < twelve.Length; j++)
+					{
+						if (twelve[j] == null)
+						{
+							twelve[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 13:
+					for (int j = 0; j < thirteen.Length; j++)
+					{
+						if (thirteen[j] == null)
+						{
+							thirteen[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 14:
+					for (int j = 0; j < fourteen.Length; j++)
+					{
+						if (fourteen[j] == null)
+						{
+							fourteen[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 15:
+					for (int j = 0; j < fifteen.Length; j++)
+					{
+						if (fifteen[j] == null)
+						{
+							fifteen[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 16:
+					for (int j = 0; j < sixteen.Length; j++)
+					{
+						if (sixteen[j] == null)
+						{
+							sixteen[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 17:
+					for (int j = 0; j < seventeen.Length; j++)
+					{
+						if (seventeen[j] == null)
+						{
+							seventeen[j] = temp;
+							break;
+						}
+					}
+					break;
+
+				case 18:
+					for (int j = 0; j < eighteen.Length; j++)
+					{
+						if (eighteen[j] == null)
+						{
+							eighteen[j] = temp;
+							break;
+						}
+					}
+					break;
+			} // end of switch
+		}
+
+		Print();
+	}
+
+	public static void Print()
+	{
+		StringBuilder result = new StringBuilder();
+
+		string[][] arrays = { one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen };
+
+		foreach (string[] array in arrays)
+		{
+			foreach (string s in array)
+			{
+				if (s != null)
+				{
+					result.Append(s).Append(" ");
+				}
+			}
+		}
+
+		Console.WriteLine(result.ToString().Trim());
+	}
+}
